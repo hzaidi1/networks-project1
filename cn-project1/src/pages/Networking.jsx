@@ -50,9 +50,10 @@ export default function Networking() {
 
       <div className="card">
         <h2>Protocols (HTTP vs HTTPS)</h2>
-        <p>This site enforces HTTPS, ensuring that data is encrypted during transit. This uses the TCP/IP protocol for reliable delivery.</p>
+        <p>This site enforces HTTPS, ensuring that data is encrypted during transit. 
+          This uses the TCP/IP protocol for reliable delivery. HTTP transfers data in plain text. HTTPS encrypts using TLS. </p>
         <p>As shown below, the HTTP headers confirm that HTTPS is being used and that the connection is secure. 
-          The Strict-Transport-Security header enforces HTTPS by telling the browser to only use HTTPS for future
+          The <strong>Strict-Transport-Security</strong> header enforces HTTPS by telling the browser to only use HTTPS for future
           requests and use an encrypted connection. The status code 200 OK confirms the server successfully returned the page. </p>
         <img src={headersImage} alt="HTTP Headers Evidence" style={{ width: "100%", borderRadius: "8px", marginTop: "10px" }} />
       </div>
