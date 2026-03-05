@@ -39,7 +39,7 @@ export default function Networking() {
 
       <div className="card">
         <h2>IP Addressing</h2>
-        <p>IPv4 is a 32-bit address written in dotted decimal format (e.g. 185.199.x.x). It identifies devices on the internet logically.</p>
+        <p>IPv4 is a 32-bit address written in dotted decimal format. It identifies devices on the internet logically.</p>
         <p>Detected IPv4: <span id="ip-address">{ipv4}</span></p>
 
         <p>IPv6 is a 128-bit address written in hexadecimal format separated by colons. It was introduced to handle the exhaustion of IPv4 addresses.</p>
