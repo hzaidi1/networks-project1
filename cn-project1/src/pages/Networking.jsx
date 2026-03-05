@@ -45,7 +45,7 @@ export default function Networking() {
         <p>IPv6 is a 128-bit address written in hexadecimal format separated by colons. It was introduced to handle the exhaustion of IPv4 addresses.</p>
         <p>Detected IPv6: <span id="ip-address-v6">{ipv6}</span></p>
 
-        <p>Both addresses resolve from the same domain name — this is how GitHub Pages supports both older and newer network infrastructure.</p>
+        <p>GitHub Pages supports both IPv4 and IPv6, ensuring compatibility with different network infrastructures.</p>
       </div>
 
       <div className="card">
