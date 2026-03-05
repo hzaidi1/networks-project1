@@ -87,3 +87,9 @@ button {
 button:hover {
   background-color: #dfb6f7;
 }
+
+#ip-address-v6 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #7d5ba6;
+  font-weight: bold;
+}
